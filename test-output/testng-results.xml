@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69" started-at="2018-04-26T11:44:10Z" finished-at="2018-04-26T11:44:10Z">
+    <groups>
+      <group name="Car">
+        <method signature="Grouping.carBMW()[pri:0, instance:parameterization.Grouping@724af044]" name="carBMW" class="parameterization.Grouping"/>
+        <method signature="Grouping.carMethod1()[pri:0, instance:parameterization.Grouping@724af044]" name="carMethod1" class="parameterization.Grouping"/>
+        <method signature="Grouping.carMethod2()[pri:0, instance:parameterization.Grouping@724af044]" name="carMethod2" class="parameterization.Grouping"/>
+      </group> <!-- Car -->
+      <group name="BMW">
+        <method signature="Grouping.carBMW()[pri:0, instance:parameterization.Grouping@724af044]" name="carBMW" class="parameterization.Grouping"/>
+      </group> <!-- BMW -->
+    </groups>
+    <test name="Default test" duration-ms="69" started-at="2018-04-26T11:44:10Z" finished-at="2018-04-26T11:44:10Z">
+      <class name="parameterization.Grouping">
+        <test-method status="PASS" signature="carBMW()[pri:0, instance:parameterization.Grouping@724af044]" name="carBMW" duration-ms="22" started-at="2018-04-26T17:14:10Z" finished-at="2018-04-26T17:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carBMW -->
+        <test-method status="PASS" signature="carMethod1()[pri:0, instance:parameterization.Grouping@724af044]" name="carMethod1" duration-ms="4" started-at="2018-04-26T17:14:10Z" finished-at="2018-04-26T17:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carMethod1 -->
+        <test-method status="PASS" signature="carMethod2()[pri:0, instance:parameterization.Grouping@724af044]" name="carMethod2" duration-ms="8" started-at="2018-04-26T17:14:10Z" finished-at="2018-04-26T17:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carMethod2 -->
+      </class> <!-- parameterization.Grouping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="methods" thread-count="2">
+<test name="testAg">
+<parameter name="author" value="Ag"></parameter>
+<parameter name="searchKey" value="India" />
+<classes>
+<class name="testng_ex.ParameterWithTestNGXML">
+</class>
+</classes>
+</test>
+
+<test name="testAg2">
+<parameter name="searchKey" value="UK" />
+<parameter name="author" value="AB"></parameter>
+<classes>
+<class name="testng_ex.ParameterWithTestNGXML">
+</class>
+</classes>
+</test>
+
+
+
+</suite>

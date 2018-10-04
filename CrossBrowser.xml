@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser" thread-count="3">
+  <test name="Firefox test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testng_ex.CrossWebBrowser"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Chrome test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testng_ex.CrossWebBrowser"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Safari test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testng_ex.CrossWebBrowser"/>
+    </classes>
+  </test> <!-- Default test -->
+      
+</suite> <!-- Default suite -->

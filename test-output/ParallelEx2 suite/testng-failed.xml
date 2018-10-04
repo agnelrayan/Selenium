@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [ParallelEx2 suite]" parallel="methods">
+  <test verbose="2" name="ParallelEx Test">
+    <classes>
+      <class name="parameterization.ParallelEx2"/>
+    </classes>
+  </test> <!-- ParallelEx Test -->
+</suite> <!-- Failed suite [ParallelEx2 suite] -->

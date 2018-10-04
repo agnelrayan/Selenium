@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MultiBrowser Suite]">
+  <parameter name="browser" value="explorer"/>
+  <test name="Firefox test">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserEx"/>
+    </classes>
+  </test> <!-- Firefox test -->
+  <test name="Chrome test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserEx"/>
+    </classes>
+  </test> <!-- Chrome test -->
+  <test name="Explorer test">
+    <parameter name="browser" value="explorer"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserEx"/>
+    </classes>
+  </test> <!-- Explorer test -->
+  <test name="Firefox test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserEx">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- multibrowser.MultiBrowserEx -->
+    </classes>
+  </test> <!-- Firefox test(failed) -->
+  <test name="Chrome test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserEx">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- multibrowser.MultiBrowserEx -->
+    </classes>
+  </test> <!-- Chrome test(failed) -->
+  <test name="Explorer test(failed)">
+    <parameter name="browser" value="explorer"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserEx">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- multibrowser.MultiBrowserEx -->
+    </classes>
+  </test> <!-- Explorer test(failed) -->
+</suite> <!-- Failed suite [MultiBrowser Suite] -->

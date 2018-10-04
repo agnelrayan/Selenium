@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [GRID SAMPLE TEST]">
+  <parameter name="browserType" value="chrome"/>
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="selegridex.GridExample"/>
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE -->
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF ">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="selegridex.GridExample"/>
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER FF  -->
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed)">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="selegridex.GridExample">
+        <methods>
+          <include name="mailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selegridex.GridExample -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed) -->
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF (failed)">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="selegridex.GridExample">
+        <methods>
+          <include name="mailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selegridex.GridExample -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER FF (failed) -->
+</suite> <!-- Failed suite [GRID SAMPLE TEST] -->

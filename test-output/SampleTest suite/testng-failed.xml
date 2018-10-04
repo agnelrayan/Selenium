@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [SampleTest suite]" parallel="methods">
+  <test name="Sample test">
+    <classes>
+      <class name="parameterization.SampleTest"/>
+    </classes>
+  </test> <!-- Sample test -->
+</suite> <!-- Failed suite [SampleTest suite] -->

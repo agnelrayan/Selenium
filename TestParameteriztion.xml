@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite" thread-count="3">
+  <test verbose="2" name="Default test">
+   <parameter name="browser" value="Firefox"></parameter>
+   <parameter name="username" value="testuser"></parameter>
+   <parameter name="password" value="testpassword"></parameter>
+   <parameter name ="firstname" value="Agnel"></parameter>
+   <parameter name ="lastname" value="Rayan"></parameter>
+    <classes>
+      <class name="parameterization.TestParameters"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
